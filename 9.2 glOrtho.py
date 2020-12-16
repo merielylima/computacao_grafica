@@ -6,7 +6,7 @@ def myInit():
     glClearColor(0.0, 0.0, 1.0, 1.0) 
     glColor3f(0.0, 1.0, 0.0)
     glPointSize(10.0)
-# ------ Camera antiga --------- #
+# ------ gluOrtho2D --------- #
     # gluOrtho2D(0, 500, 0, 500)
     
 # redefine a matriz de projeção, porque glOrtho se multiplica por ela em vez de apenas defini-la imediatamente.
