@@ -69,7 +69,7 @@ def showScreen():
     glPopMatrix() 
     
 # ------- Cone ------- # 
-    glTranslatef(0, 0, -10) # (por escolha, não coloquei o desenho cobrindo o outro, apenas em cima)
+    glTranslatef(0, 0, -10)
     glRotatef(45, -1, 0, 0) # rotaciona
     setMaterial(0, 1.0, 0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1)
     glutSolidCone(1, 3, 100, 100) # desenha um cone
