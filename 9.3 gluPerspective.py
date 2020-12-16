@@ -2,8 +2,6 @@ from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
 
-
-
 # ---Section 1---
 def square():
 # We have to declare the points in this sequence: bottom left, bottom right, top right, top left
@@ -16,15 +14,12 @@ def square():
 
 # This alone isn't enough to draw our square
 
-
-
 # Add this function before Section 2 of the code above i.e. the showScreen function
 def iterate():
 
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()
     glViewport(0, 0, 500,500)   
-    
 
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()
